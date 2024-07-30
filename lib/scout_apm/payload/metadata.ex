@@ -1,4 +1,5 @@
 defmodule ScoutApm.Payload.Metadata do
+  @derive Jason.Encoder
   defstruct [
     :app_root,
     :unique_id,
